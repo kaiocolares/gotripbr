@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFAF87;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+nav img {
+    height: 35.37px;
+}
+
+.img-nav {
+    margin: 8px;
+}
+
+.menu{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu img {
+    height: 100.05px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-family: Koulen;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+body {
+    background: linear-gradient(#FEE8A2 , rgba(255, 175, 135, 0.00) ) fixed,
+    url(./imagens/mapa.jpeg);
+}
+
+section {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+section img {
+    height: 400px;
+}
+
+section .quemsomos {
+    width: 662px;
+}
+
+.quemsomos h1 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.quemsomos p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.container {
+    width: 450px;
+    margin-right: 120px;
+}
+
+.nome {
+    width: 100%;
+    padding: 2px;
+    background-color: rgba(217, 217, 217, 0.60);
+    margin-bottom: 30px;
+}
+
+.nome h2 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+    padding: 12px;
+    background-color: rgba(217, 217, 217, 0.60);
+}
+
+.paragrafo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+footer {
+    background: #FFAF87;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+footer .rodape {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h2 {
+    font-family: Koulen;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+footer .rodape p,
+footer form input {
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer .rodape .tamrodape {
+    width: 519px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+footer form input {
+    width: 400px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 150px;
+    background-color: #fffaef;
+    outline: none;
+    border: none;
+}
+
+footer form button {
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 150px;
+    border: none;
+    background: #D9D9D9;
+}
+
+footer .copy {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
